@@ -1,0 +1,47 @@
+h1{
+    color: white;
+    background-color: black;
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    margin: 0px;
+}
+header{
+    background-color: grey;
+    margin: 5px 0px 5px 0px;
+}
+h2{
+    width: 48.96%;
+    display: inline-block;
+}
+nav{
+    background-color: lightgrey;
+    margin: 1px 0px 1px 0px;
+}
+li{
+    display: inline-block;
+    width: 24%;
+}
+article{
+    clear: both;
+}
+div{
+    width: 200px;
+    height: 100px;
+    padding-top: 99px;
+    float: left;
+    margin: 10px 5px 10px 0px;
+    background-color: lightgrey;
+    text-align: center;
+}
+p{
+    display: inline-block;
+    width: 50%;
+}
+.lorem2{
+    display: inline-block;
+    width: 30%;
+}
+footer{
+    clear: both;
+}
