@@ -1,0 +1,45 @@
+<!ELEMENT recetas (receta)+>
+
+<!ATTLIST recetas autor CDATA #FIXED "Yessamin Vargas">
+
+<!ELEMENT receta (nombre, categoria, informacionGeneral?, ingredientes, preparacion)> 
+
+<!ATTLIST receta fechaAlta CDATA #IMPLIED>
+
+<!ATTLIST receta idReceta ID #REQUIRED>
+
+<!ELEMENT nombre (#PCDATA)> 
+
+<!ELEMENT categoria (#PCDATA | subcategoria)*>
+
+<!ELEMENT subcategoria (#PCDATA)>
+
+<!ELEMENT informacionGeneral (foto?, enlace?, comensales, tiempo, dificultad, descripcion?)> 
+
+<!ELEMENT foto (#PCDATA)>
+
+<!ELEMENT enlace (#PCDATA)>
+
+<!ELEMENT comensales (#PCDATA)>
+
+<!ELEMENT tiempo (#PCDATA)>
+
+<!ATTLIST tiempo unidadDeTiempo (horas|minutos) #IMPLIED>
+
+<!ELEMENT dificultad (#PCDATA)>
+
+<!ELEMENT descripcion (#PCDATA)>
+ 
+<!ELEMENT ingredientes (ingrediente+)>
+
+<!ELEMENT ingrediente (#PCDATA)> 
+
+<!ATTLIST ingrediente cantidad CDATA #IMPLIED> 
+
+<!ATTLIST ingrediente unidadDeMedida (gramo | taza | cuchara | cucharada | mililitro|unidad) #IMPLIED>
+
+<!ELEMENT preparacion (paso+)> 
+
+<!ELEMENT paso (#PCDATA)>
+
+<!ATTLIST paso orden ID #REQUIRED>

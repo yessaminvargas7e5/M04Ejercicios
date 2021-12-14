@@ -1,0 +1,61 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE recetas SYSTEM "YessaminVargas_recetas.dtd">
+<recetas autor="Yessamin Vargas">
+
+     <receta idReceta="Receta1" fechaAlta="07/11/2021">
+       <nombre>Galletas de chocolate </nombre>
+       <categoria>
+      Postre
+      <subcategoria>Dulce </subcategoria>
+      </categoria>
+      <informacionGeneral> 
+      <foto> </foto>
+      <enlace></enlace>
+      <comensales>12</comensales>
+      <tiempo unidadDeTiempo="minutos">30</tiempo>
+      <dificultad>Facil</dificultad>
+      <descripcion>Receta de galletas de chocolate al hornopaso a paso</descripcion>
+      </informacionGeneral>
+       <ingredientes>
+         <ingrediente cantidad="1" unidadDeMedida="unidad">Crema de avellana </ingrediente>
+         <ingrediente cantidad="1" unidadDeMedida="unidad">Huevo</ingrediente>
+         <ingrediente cantidad="500" unidadDeMedida="gramo">Harina </ingrediente>
+         <ingrediente cantidad="12" unidadDeMedida="unidad">Nueces </ingrediente>
+       </ingredientes>
+       <preparacion>
+         <paso orden="r1">Precalienta el horno a 160°C.</paso>
+         <paso orden="r2">En un bowl mezcla la crema de avellanas con el huevo y con ayuda de un colador, agrega la harina y mezcla hasta incorporar.</paso>
+         <paso orden="r3">Con ayuda de tus manos forma bolitas y coloca sobre una charola previamente engrasada. Presiona al centro para formar un hueco y hornea 15 minutos. Deja enfriar y reserva.</paso>
+         <paso orden="r4">Con ayuda de una manga coloca crema de avellanas al centro de las galletas y decora con nueces.</paso>
+         <paso orden="r5">Servir al gusto</paso>
+       </preparacion>
+     </receta>
+     <receta idReceta="Receta2" fechaAlta="07/11/2021">
+      <nombre>Spaghetti con parmesano y tocino </nombre>
+      <categoria>  
+     Segundo Plato
+     <subcategoria>Salado</subcategoria>
+       </categoria>
+     <informacionGeneral> 
+     <foto> </foto>
+     <enlace></enlace>
+     <comensales>4</comensales>
+     <tiempo unidadDeTiempo="minutos">20</tiempo>
+     <dificultad>Facil</dificultad>
+     <descripcion>Receta de Spaghetti con parmesano y tocino paso a paso</descripcion>
+     </informacionGeneral>
+      <ingredientes>
+        <ingrediente cantidad="1" unidadDeMedida="unidad">Paquete de fideos </ingrediente>
+        <ingrediente cantidad="1" unidadDeMedida="cucharada">Sal </ingrediente>
+        <ingrediente cantidad="2" unidadDeMedida="cucharada">Queso Parmesano </ingrediente>
+        <ingrediente cantidad="1" unidadDeMedida="cucharada">Pimienta recien molida </ingrediente>
+      </ingredientes>
+      <preparacion>
+        <paso orden="r2-1">Agregar a una olla con agua hirviendo el spaghetti</paso>
+        <paso orden="r2-2">Añadir sal al gusto</paso>
+        <paso orden="r2-3">Cuando el spaguetti este cocido, pasarlo por un colador.Reserva 1 taza de esta agua y escurre</paso>
+        <paso orden="r2-4">Regresa el spaghetti a la cacerola y mezclar con el tocino y el queso parmesano.</paso>
+        <paso orden="r2-5">Sazona con más sal y espolvorea pimienta.</paso>
+      </preparacion>
+     </receta>
+   </recetas>
